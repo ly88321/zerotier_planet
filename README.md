@@ -15,7 +15,7 @@ zertotier_planet_debain.sh
 然后ztncui登录刷新授权。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
 
-Linux配置文件 /var/lib/zerotier-one/
+*Linux配置文件 /var/lib/zerotier-one/
 systemctl restart zerotier-one  重启服务
 Windows 下缺省在 `C:\ProgramData\ZeroTier\One\`
 net stop ZeroTierOneService
@@ -23,7 +23,7 @@ net start ZeroTierOneService  重启服务
 
 卸载：
 
-删除ztncui
+*删除ztncui
 rpm -e ztncui-0.8.7-1.x86_64
 删除zerotier-one服务
 sudo rpm -e zerotier-one
