@@ -15,5 +15,17 @@ zertotier_planet_debain.sh
 然后ztncui登录刷新授权。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
 
+Linux配置文件 /var/lib/zerotier-one/
+systemctl restart zerotier-one  重启服务
+Windows 下缺省在 `C:\ProgramData\ZeroTier\One\`
+net stop ZeroTierOneService
+net start ZeroTierOneService  重启服务
 
- 
+卸载：
+
+删除ztncui
+rpm -e ztncui-0.8.7-1.x86_64
+删除zerotier-one服务
+sudo rpm -e zerotier-one
+删除zerotier-one文件夹，该文件夹存储了address地址，删除后再次安装会获得新的address地址
+sudo rm -rf /var/lib/zerotier-one/
