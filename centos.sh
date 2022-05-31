@@ -26,7 +26,7 @@ mv ./world.bin ./planet
 \cp -r ./planet /root
 systemctl restart zerotier-one.service
 wget https://github.com/ly88321/ztncui-zh/releases/download/ztncui_0.8.7/ztncui-0.8.7-1.x86_64.rpm
-rpm -ivh ztncui-0.8.6-1.x86_64.rpm
+rpm -ivh ztncui-0.8.7-1.x86_64.rpm
 cd /opt/key-networks/ztncui/
 echo "HTTPS_PORT = 3443" >>./.env
 secret=`cat /var/lib/zerotier-one/authtoken.secret`
