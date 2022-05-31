@@ -14,6 +14,9 @@ zertotier_planet_debain.sh
 加入 id 
 然后ztncui登录刷新授权。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
+  
+####一键安装：  
+`wget https://raw.githubusercontent.com/ly88321/zerotier_planet/master/zerotierplanet.sh && chmod +x zerotierplanet.sh && ./zerotierplanet.sh`  
 **配置文件**  
 Linux配置文件 /var/lib/zerotier-one/  
 Windows 下缺省在 `C:\ProgramData\ZeroTier\One\`  
